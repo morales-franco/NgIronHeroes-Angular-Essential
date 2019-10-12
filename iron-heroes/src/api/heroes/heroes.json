@@ -1,0 +1,57 @@
+[
+    {
+      "id" : 1,
+      "name" : "Superman",
+      "birth": "October 12, 2019",
+      "description" : "Super heroe",
+      "fortune": 123456789.56,
+      "imageUrl":"https://cdn2us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2019/05/doomsday-clock-10-watchmen-dr-manhattan-superman-dc-universe.jpg?itok=l95rPFCa",
+      "rating": 4,
+      "superPower": "laser eyes",
+      "city": "Metropolis"
+    },
+    {
+        "id"  : 2,
+        "name" : "Batman",
+        "birth": "October 12, 2009",
+        "description" : "Super heroe",
+        "fortune": 123456789.56,
+        "imageUrl":"https://www.sideshow.com/product-asset/903127/feature",
+        "rating": 3,
+        "superPower": "super strength",
+        "city": "Gotham"
+    },
+    {
+        "id"  : 3,
+        "name" : "Robin",
+        "birth": "October 12, 2009",
+        "description" : "Super heroe",
+        "fortune": 123456789.56,
+        "imageUrl":"https://www.sideshow.com/product-asset/903127/feature",
+        "rating": 2,
+        "superPower": "super strength",
+        "city": "Gotham"
+    },
+    {
+        "id"  : 4,
+        "name" : "Hulk",
+        "birth": "October 12, 2009",
+        "description" : "Super heroe",
+        "fortune": 123456789.56,
+        "imageUrl":"https://www.sideshow.com/product-asset/903127/feature",
+        "rating": 1,
+        "superPower": "super strength",
+        "city": "Gotham"
+    },
+    {
+        "id"  : 5,
+        "name" : "Spiderman",
+        "birth": "October 12, 2009",
+        "description" : "Super heroe",
+        "fortune": 123456789.56,
+        "imageUrl":"https://www.sideshow.com/product-asset/903127/feature",
+        "rating": 5,
+        "superPower": "super strength",
+        "city": "Gotham"
+    }
+  ]
