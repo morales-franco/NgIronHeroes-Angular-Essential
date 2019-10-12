@@ -9,7 +9,7 @@ import { HeroesService } from '../services/heroes.service';
 })
 export class HeroeListComponent implements OnInit {
 
-  title : string = "Heroe List"; //show in view by Interpolation Binding
+  title : string = "Hero List"; //show in view by Interpolation Binding
   imageWith: number = 100;
   imageMargin: number = 2;
   showImage: boolean = true;

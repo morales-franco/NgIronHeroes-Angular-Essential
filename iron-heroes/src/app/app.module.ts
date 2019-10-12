@@ -12,6 +12,8 @@ import { HeroeDetailComponent } from './heroes/heroe-detail.component';
 import { PageNotFoundComponent } from './shared/page-not-found.component';
 import { SecretInformationPipe } from './pipes/secret-information.pipe';
 import { RatingComponent } from './shared/rating.component';
+import { SecretHeroeGuard } from './guards/secret-heroe.guard';
+import { SecretComponent } from './heroes/secret.component';
 
 
 @NgModule({
@@ -23,7 +25,8 @@ import { RatingComponent } from './shared/rating.component';
     HeroeDetailComponent,
     PageNotFoundComponent,
     SecretInformationPipe,
-    RatingComponent
+    RatingComponent,
+    SecretComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,8 @@ import { RatingComponent } from './shared/rating.component';
     HttpClientModule,
     RouterModule.forRoot([
       { path: "heroes", component: HeroeListComponent },
-      { path: "heroes/:id", component: HeroeDetailComponent },
+      { path: "heroes/:id", component: HeroeDetailComponent, canActivate: [ SecretHeroeGuard] },
+      { path: "secret", component: SecretComponent },
       { path: "welcome", component: WelcomeComponent },
       { path: "", redirectTo: "welcome", pathMatch: "full" },
       { path: "**", component: PageNotFoundComponent }

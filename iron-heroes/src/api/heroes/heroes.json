@@ -53,5 +53,16 @@
         "rating": 5,
         "superPower": "super strength",
         "city": "Gotham"
+    },
+    {
+        "id"  : 50,
+        "name" : "Secret heroe",
+        "birth": "October 12, 2009",
+        "description" : "Super heroe",
+        "fortune": 123456789.56,
+        "imageUrl":"https://www.sideshow.com/product-asset/903127/feature",
+        "rating": 5,
+        "superPower": "super strength",
+        "city": "Gotham"
     }
   ]
