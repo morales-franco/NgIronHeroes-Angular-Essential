@@ -9,6 +9,10 @@ export class SecretInformationPipe implements PipeTransform {
     
     let cryptoValue : string = "";
 
+    if(typeof(value) == undefined || value == null){
+      return value;
+    }
+
     for (let index = 0; index < value.length; index++) {
 
       if( (index + 1) % 2 == 0 ){

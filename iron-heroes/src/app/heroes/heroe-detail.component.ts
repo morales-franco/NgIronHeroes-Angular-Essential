@@ -11,7 +11,7 @@ import { HeroesService } from '../services/heroes.service';
 export class HeroeDetailComponent implements OnInit {
 
   heroeId : number = 0;
-  heroe: IHeroe;
+  heroe: IHeroe= <IHeroe>{};
   errorMessage: string;
 
   constructor(private router : Router,
