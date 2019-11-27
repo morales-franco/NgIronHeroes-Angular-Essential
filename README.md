@@ -1,7 +1,6 @@
-# NgIronHeroes_Training_1
-Part 1: Training Course -  Angular Essential
+# NgIronHeroes - Angular Essential 
 
-##Topics
+## Topics
 
 1. Angular CLI
 2. Basic Architecture
